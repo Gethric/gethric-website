@@ -1,10 +1,27 @@
-import React from 'react';
+import React from "react";
+import PERSONAL_DATA from "./personal";
+import AboutMe from "../../components/about-me/about-me.component";
+import "../../sass/pages/about.styles.scss";
 
+class About extends React.Component {
+	constructor(props) {
+		super(props);
 
-const Aboutpage = () => (
-    <div>
-        <h1>ABOUT ME</h1>
-    </div>
-);
+		this.state = {
+			about: PERSONAL_DATA
+		};
+	}
 
-export default Aboutpage;
+	render() {
+		const { about } = this.state;
+		return (
+			<div className="about">
+				{about.map(({ id, ...otherAboutProps }) => (
+					<AboutMe key={id} {...otherAboutProps} />
+				))}
+			</div>
+		);
+	}
+}
+
+export default About;

@@ -1,6 +1,6 @@
 import React from "react";
 import MenuItem from "../menu-item/menu-item.component";
-import "./directory.styles.scss";
+import "../../sass/components/directory.styles.scss";
 
 class Directory extends React.Component {
 	constructor() {
@@ -10,19 +10,22 @@ class Directory extends React.Component {
 			sections: [
 				{
 					title: "about",
-					imageUrl: "http://www.gethric.com/IMG_3055.jpg",
+					subtitle: "who am i?",
+					imageUrl: "",
 					id: 1,
 					linkUrl: "about"
 				},
 				{
 					title: "portfolio",
-					imageUrl: "http://www.gethric.com/IMG_3059.jpeg",
+					subtitle: "see my work",
+					imageUrl: "",
 					id: 2,
 					linkUrl: "portfolio"
 				},
 				{
 					title: "contact",
-					imageUrl: "http://www.gethric.com/IMG_3060.jpeg",
+					subtitle: "get in touch!",
+					imageUrl: "",
 					id: 3,
 					linkUrl: "contact"
 				}

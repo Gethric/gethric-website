@@ -1,0 +1,25 @@
+@import "../base/typography";
+@import "../base/base";
+@import "../base/animations";
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+
+	.title {
+		font-size: 300%;
+		color: $text-grey;
+	}
+	.subtitle {
+		font-size: 205%;
+		color: $text-grey;
+	}
+}
