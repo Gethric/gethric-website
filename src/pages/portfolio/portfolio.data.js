@@ -3,7 +3,7 @@ const PORTFOLIO_DATA = [
 		id: 1,
 		title: "Work Hours Report",
 		subtitle: "Report to submit hours worked by teachers at a language school",
-		url: "http://www.gethric.com/dist/",
+		url: "https://hours-report-c322f.web.app/",
 		routeName: "report"
 	},
 	{
