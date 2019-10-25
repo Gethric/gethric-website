@@ -1,7 +1,7 @@
 import React from "react";
 import PERSONAL_DATA from "./personal";
 import AboutMe from "../../components/about-me/about-me.component";
-import "../../sass/pages/about.styles.scss";
+import "./about.styles.scss";
 
 class About extends React.Component {
 	constructor(props) {

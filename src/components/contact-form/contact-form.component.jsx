@@ -1,7 +1,7 @@
 import React from "react";
 import FormInput from "../form-input/form-input.component";
 import CustomButton from "../custom-button/custom-button.component";
-import "../../sass/components/contact-form.styles.scss";
+import "./contact-form.styles.scss";
 import { createMessageDocument } from "../../firebase/firebase.utils";
 
 class ContactForm extends React.Component {

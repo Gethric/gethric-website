@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../sass/components/portfolio-item.styles.scss";
+import "./portfolio-item.styles.scss";
 
 const PortfolioItem = ({ id, title, subtitle, url, routename }) => (
 	<div className="portfolio_item">

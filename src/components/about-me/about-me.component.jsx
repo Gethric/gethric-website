@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../sass/components/about-me.styles.scss";
+import "./about-me.styles.scss";
 
 const AboutMe = ({ text }) => (
 	<div className="about_me">

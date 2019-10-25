@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../sass/layout/header.styles.scss";
+import "./header.styles.scss";
 
 const Header = () => (
 	<div className="header">

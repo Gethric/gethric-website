@@ -1,7 +1,7 @@
 import React from "react";
 import PORTFOLIO_DATA from "./portfolio.data";
 import PortfolioItem from "../../components/portfolio-item/portfolio-item.component";
-import "../../sass/pages/portfolio.styles.scss";
+import "./portfolio.styles.scss";
 
 class Portfolio extends React.Component {
 	constructor(props) {
