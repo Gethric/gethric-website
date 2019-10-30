@@ -1,25 +1,37 @@
 @import "../../sass/base/typography";
+@import "../../sass/base/base";
+
+a {
+	color: $magenta;
+	text-decoration: none; /* no underline */
+}
 
 .portfolio_item {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin: 1% 25%;
+	flex-direction: column;
+	margin: 1% 27%;
 	border-radius: 5px;
 	color: $text-grey;
 }
 
 .title {
-	display: flex;
-	justify-content: center;
 }
 
 .subtitle {
-	display: flex;
-	justify-content: center;
+	color: $sub-color;
+	margin: 7px 0px;
 }
 
-.link {
-	display: flex;
-	justify-content: center;
+.language {
+	color: $cyan;
+	margin: 7px 0px;
+}
+
+.links {
+	text-decoration: none;
+	margin: 7px 0px;
+}
+.url,
+.code {
+	margin: 0px 10px 0px 0px;
 }

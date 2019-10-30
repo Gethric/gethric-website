@@ -1,12 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./header.styles.scss";
 
 const Header = () => (
 	<div className="header">
 		<div className="wrapper">
-			<div className="title">Welcome</div>
-			<div className="subtitle">to gethric.com</div>
+			<Link className="title" to="/">
+				Welcome
+			</Link>
+			<Link className="subtitle" to="/">
+				to gethric.com
+			</Link>
 		</div>
 	</div>
 );
