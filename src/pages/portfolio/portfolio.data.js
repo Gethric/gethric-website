@@ -8,7 +8,7 @@ const PORTFOLIO_DATA = [
 		code: "https://github.com/Gethric/Work-Hours-Report",
 		routeName: "report"
 	},
-	{
+	/*{
 		id: 2,
 		title: "Argentum Band Website",
 		subtitle: "Media showcase and Contact for local working band",
@@ -16,17 +16,17 @@ const PORTFOLIO_DATA = [
 		url: "http://www.argentumband.com",
 		code: "",
 		routeName: "band"
-	},
+	},*/
 	{
 		id: 3,
-		title: "Josue Photography Shop",
+		title: "Chauncey Photography Shop",
 		subtitle: "Professional photography and sales page inc shop",
 		language: "React",
-		url: "http://www.josuephotography.com",
+		url: "https://photostore-8b61e.firebaseapp.com",
 		code: "https://github.com/Gethric/photographer",
 		routeName: "shop"
-	},
-	{
+	}
+	/*{
 		id: 4,
 		title: "Restaurant Website",
 		subtitle: "Including menu, booking system, user admin etc",
@@ -34,7 +34,7 @@ const PORTFOLIO_DATA = [
 		url: "http://www.restaurant.com/dist/",
 		code: "",
 		routeName: "restaurant"
-	}
+	}*/
 ];
 
 export default PORTFOLIO_DATA;

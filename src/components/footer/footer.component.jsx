@@ -42,7 +42,7 @@ const Footer = () => (
 		</a>
 		<a
 			className="social"
-			href="https://drive.google.com/open?id=1xsVQZsjeEsg-YLn7TSSpTilyEMLZe5la"
+			href="https://drive.google.com/open?id=1I6vQu_dON74NSa_ylv-HRJsiQ3HrDqLJ"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
