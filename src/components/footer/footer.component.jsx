@@ -28,30 +28,6 @@ const Footer = () => (
 				alt="GITHUB"
 			/>
 		</a>
-		<a
-			className="social"
-			href="https://www.facebook.com/gethin.thomas"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			<img
-				className="icons"
-				src={require("../../assets/socicons/facebook.png")}
-				alt="FACEBOOK"
-			/>
-		</a>
-		<a
-			className="social"
-			href="https://drive.google.com/open?id=1I6vQu_dON74NSa_ylv-HRJsiQ3HrDqLJ"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			<img
-				className="icons"
-				src={require("../../assets/socicons/cv.png")}
-				alt="LINKdddd"
-			/>
-		</a>
 	</div>
 );
 
