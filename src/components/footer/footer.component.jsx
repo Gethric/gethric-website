@@ -6,7 +6,7 @@ const Footer = () => (
 		<h5>This website was created using React</h5>
 		<a
 			className="social"
-			href="https://www.linkedin.com/in/gethin-thomas-221b10176/"
+			href="https://www.linkedin.com/in/ric-thomas-221b10176/"
 			target="_blank"
 			rel="noopener noreferrer"
 		>

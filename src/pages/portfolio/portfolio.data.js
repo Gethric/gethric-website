@@ -1,6 +1,16 @@
 const PORTFOLIO_DATA = [
 	{
 		id: 1,
+		title: "Weather Watcher",
+		subtitle:
+			"Small app that tells you the current weather for the day where you are",
+		language: "JavaScript (React) utilising Redux with thunks for async",
+		url: "https://weatherwatcher-170ff.web.app/",
+		code: "https://github.com/Gethric/WeatherWatcher",
+		routeName: "report"
+	},
+	{
+		id: 2,
 		title: "Work Hours Report",
 		subtitle: "Report to submit hours worked by teachers at a language school",
 		language: "Javascript (vanilla)",
