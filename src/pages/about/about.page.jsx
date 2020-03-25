@@ -19,6 +19,9 @@ class About extends React.Component {
 				{about.map(({ id, ...otherAboutProps }) => (
 					<AboutMe key={id} {...otherAboutProps} />
 				))}
+				<a className="email" href="mailto:gethricweb@gmail.com">
+					gethricweb@gmail.com
+				</a>
 			</div>
 		);
 	}
