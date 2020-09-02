@@ -1,7 +1,7 @@
 import React from "react";
 import FormInput from "../form-input/form-input.component";
 import CustomButton from "../custom-button/custom-button.component";
-import axios from "axios";
+import sendEmail from "../../emails/account.js";
 import "./contact-form.styles.scss";
 import { createMessageDocument } from "../../firebase/firebase.utils";
 
@@ -13,29 +13,20 @@ class ContactForm extends React.Component {
 			name: "",
 			email: "",
 			subject: "",
-			message: ""
+			message: "",
 		};
 	}
 
 	sendForm = () => {
-		axios({
-			method: "POST",
-			url: "http://localhost:3002/send",
-			data: this.state
-		}).then(response => {
-			if (response.data.status === "success") {
-				alert("Message Sent.");
-			} else if (response.data.status === "fail") {
-				alert("Message failed to send.");
-			}
-		});
+		const state = this.state;
+		sendEmail(state.name, state.email, state.subject, state.message);
 	};
 
 	resetForm = () => {
 		this.setState({ name: "", email: "", subject: "", message: "" });
 	};
 
-	handleSubmit = event => {
+	handleSubmit = (event) => {
 		event.preventDefault();
 		console.log(this.state);
 		this.sendForm();
@@ -43,7 +34,7 @@ class ContactForm extends React.Component {
 		this.resetForm();
 	};
 
-	handleChange = event => {
+	handleChange = (event) => {
 		const { value, name } = event.target;
 
 		this.setState({ [name]: value });
