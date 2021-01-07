@@ -1,0 +1,12 @@
+.contact-form {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border: 5px;
+	border-radius: 5px;
+
+	.title {
+		margin: 10px 0;
+	}
+}

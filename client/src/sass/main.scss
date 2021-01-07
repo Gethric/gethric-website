@@ -1,0 +1,11 @@
+@import "./base/base";
+@import "./base/typography";
+
+body {
+	font-family: $raleway;
+	background-color: $black;
+}
+
+.App {
+	margin: 5%;
+}
